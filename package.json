@@ -1,0 +1,28 @@
+{
+  "name": "shared-lists",
+  "version": "0.1.0",
+  "description": "A web app for sharing lists and todos and such",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:Kev/shared-lists.git"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "NONE",
+  "dependencies": {
+    "director": "^1.2.3",
+    "mime": "^1.2.11"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.10",
+    "envify": "^1.2.1",
+    "gulp": "^3.8.1",
+    "node-dev": "^2.3.0",
+    "react": "^0.10.0",
+    "reactify": "^0.13.1",
+    "uglifyify": "^2.4.0"
+  }
+}
